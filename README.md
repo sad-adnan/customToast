@@ -20,7 +20,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.sad-adnan:customToast:v0.0.4'
+	        implementation 'com.github.sad-adnan:customToast:v1.0'
 	}
   
   <h3><b> Use Case</b></h3>
