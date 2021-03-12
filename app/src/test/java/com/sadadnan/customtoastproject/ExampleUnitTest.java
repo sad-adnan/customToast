@@ -1,4 +1,4 @@
-package com.sadadnan.customtoastlib;
+package com.sadadnan.customtoastproject;
 
 import org.junit.Test;
 

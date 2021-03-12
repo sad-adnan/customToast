@@ -1,3 +1,4 @@
+include ':Custom Toast'
 include ':CustomToast'
 include ':app'
 rootProject.name = "CustomToast"

@@ -1,4 +1,4 @@
-package com.sadadnan.customtoastlib;
+package com.sadadnan.customtoastproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,6 +11,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        CustomToast.ShowSuccessToast(this,false,"Congratulations");
+//        CustomToast.ShowSuccessToast(this,false,"Congratulations");
     }
 }
