@@ -15,17 +15,17 @@
         android:layout_height="45dp"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:paddingBottom="@dimen/spacing_middle"
         android:paddingLeft="@dimen/spacing_smlarge"
+        android:paddingTop="@dimen/spacing_middle"
         android:paddingRight="@dimen/spacing_smlarge"
-        android:paddingTop="@dimen/spacing_middle">
+        android:paddingBottom="@dimen/spacing_middle">
 
         <ImageView
             android:id="@+id/icon"
             android:layout_width="@dimen/spacing_mlarge"
             android:layout_height="@dimen/spacing_mlarge"
-            app:tint="@android:color/white"
-            android:src="@drawable/ic_close" />
+            android:src="@drawable/ic_close"
+            app:tint="@android:color/white" />
 
         <View
             android:layout_width="@dimen/spacing_middle"
