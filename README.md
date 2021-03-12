@@ -20,11 +20,14 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.sad-adnan:customToast:v1.0'
+	        implementation 'com.github.sad-adnan:customToast:v1.1'
 	}
   
   <h3><b> Use Case</b></h3>
   
+  <b>From version 1.1 you have default value of toast as Toast>LENGTH_SHORT so you can just give one parameter (2nd one) less, if you need short length.</b>
+  
+  	CustomToast.ShowSuccessToast(MainActivity.this,"Congratulations"); // 2nd parameter DEFAULT value false --> Toast.LENGTH_SHORT
   
   <h4>you can show a success message by using below code :</h4>
         
