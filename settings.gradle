@@ -1,3 +1,4 @@
-include ':CustomToast'
+include ':CustomToastLib'
 include ':app'
+project(':CustomToastLib').projectDir = new File(rootDir, 'CustomToastLibrary/')
 rootProject.name = "CustomToast"
