@@ -96,4 +96,30 @@ public class CustomToast {
         toast.setView(custom_view);
         toast.show();
     }
+
+    public static void showToastWithoutIcon(Context mContext, boolean isLong, String message, int colorRes) {
+        Toast toast = new Toast(mContext);
+        if (isLong) {
+            toast.setDuration(Toast.LENGTH_LONG);
+        } else {
+            toast.setDuration(Toast.LENGTH_SHORT);
+        }
+
+        //inflate view
+        View custom_view = ((AppCompatActivity) mContext).getLayoutInflater().inflate(R.layout.toast_icon_text, null);
+        ((TextView) custom_view.findViewById(R.id.message)).setText(message);
+
+
+        ((ImageView) custom_view.findViewById(R.id.icon)).setVisibility(View.GONE);
+
+        try {
+            ((CardView) custom_view.findViewById(R.id.parent_view)).setCardBackgroundColor(((AppCompatActivity) mContext).getResources().getColor(colorRes));
+        } catch (Resources.NotFoundException e) {
+            e.printStackTrace();
+            ((CardView) custom_view.findViewById(R.id.parent_view)).setCardBackgroundColor(((AppCompatActivity) mContext).getResources().getColor(R.color.blue500));
+        }
+
+        toast.setView(custom_view);
+        toast.show();
+    }
 }
