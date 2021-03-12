@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey_90">#263238</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="green500">#4CAF50</color>
+    <color name="red500">#F44336</color>
+    <color name="blue500">#2196F3</color>
+</resources>
