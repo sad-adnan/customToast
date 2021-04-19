@@ -19,8 +19,10 @@ Add it in your root build.gradle at the end of repositories:
 	}
 Step 2. Add the dependency
 
+
+ [Please don't use v1.2 or 1.2 they are deleted and not meant for production , they are actually not usable]
 	dependencies {
-	        implementation 'com.github.sad-adnan:customToast:v1.1'
+	        implementation 'com.github.sad-adnan:customToast:v1.3'
 	}
   
   <h3><b> Use Case</b></h3>
