@@ -3,6 +3,8 @@
 
 [![](https://jitpack.io/v/sad-adnan/customToast.svg)](https://jitpack.io/#sad-adnan/customToast)
 
+ [Please don't use v1.2 or 1.2 they are deleted and not meant for production , they are actually not usable]
+
 <h3><b>To get a Git project into your build:</b></h3>
 
 Step 1. Add the JitPack repository to your build file
@@ -19,8 +21,6 @@ Add it in your root build.gradle at the end of repositories:
 	}
 Step 2. Add the dependency
 
-
- [Please don't use v1.2 or 1.2 they are deleted and not meant for production , they are actually not usable]
 	dependencies {
 	        implementation 'com.github.sad-adnan:customToast:v1.3'
 	}
