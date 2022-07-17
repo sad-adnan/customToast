@@ -2,6 +2,8 @@
 <h1>Android Library to show Custom Toast message</h1>
 
 [![](https://jitpack.io/v/sad-adnan/customToast.svg)](https://jitpack.io/#sad-adnan/customToast)
+[![](https://jitpack.io/v/sad-adnan/customToast/month.svg)](https://jitpack.io#sad-adnan/customToast)
+[![](https://jitpack.io/v/sad-adnan/customToast/week.svg)](https://jitpack.io#sad-adnan/customToast)
 
  [Please don't use v1.2 or 1.2 they are deleted and not meant for production , they are actually not usable]
 
