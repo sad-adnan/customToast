@@ -5,7 +5,12 @@
 [![](https://jitpack.io/v/sad-adnan/customToast/month.svg)](https://jitpack.io#sad-adnan/customToast)
 [![](https://jitpack.io/v/sad-adnan/customToast/week.svg)](https://jitpack.io#sad-adnan/customToast)
 
- [Please don't use v1.2 or 1.2 they are deleted and not meant for production , they are actually not usable]
+<h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/sad_adnan"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="sad_adnan" /></a></p> <br><br>
+
+<p>
+
+ [Please don't use v1.2 or 1.2 they are deleted and not meant for production , they are actually not usable] </p>
 
 <h3><b>To get a Git project into your build:</b></h3>
 
